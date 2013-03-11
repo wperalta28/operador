@@ -1,0 +1,23 @@
+# -*- coding: utf8 -*-
+x = (raw_input("Ingrese un operador matematico: "))
+if x == "+":
+  a = int(raw_input("Ingrese primer numero: "))
+	b = int(raw_input("Ingrese segundo numero: "))
+	c = a + b
+	print "El resultado es:", c
+elif x == "-":
+	a = int(raw_input("Ingrese primer numero: "))
+	b = int(raw_input("Ingrese segundo numero: "))
+	c = a - b
+	print "El resultado es:", c
+elif x == "*":
+	a = int(raw_input("Ingrese primer numero: "))
+	b = int(raw_input("Ingrese segundo numero: "))
+	c = a * b
+	print "El resultado es:", c
+else:
+	x == "/"
+	a = int(raw_input("Ingrese primer numero: "))
+	b = int(raw_input("Ingrese segundo numero: "))
+	c = a / b
+	print "El resultado es:", c	
